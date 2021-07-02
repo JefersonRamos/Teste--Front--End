@@ -20,3 +20,8 @@ $.get(URL,
         }
     }
 );
+
+$("#addProduto").click(function (e) { 
+    e.preventDefault();
+    window.location.href = "cadastro.html";
+});
