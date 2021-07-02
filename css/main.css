@@ -1,0 +1,110 @@
+body {
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+header div {
+    display: flex;
+    margin: 5px;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+header div:last-child {
+    display: flex;
+    flex: none;
+    justify-content: flex-end;
+}
+
+header div button {
+    background-color: white;
+    color: rgb(56, 56, 56);
+    font-size: 18px;
+    border: 1px solid #ff8b8b;
+    transition: all 0.4s;
+    min-width: 150px;
+}
+
+header div button:hover {
+    background-color: #f89090;
+    color: white;
+}
+
+.table ul {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin: 10px;
+}
+
+.table ul:first-child {
+    background-color: #ff8b8b;
+    font-size: 18px;
+    color: white;
+    margin-top: 0px;
+}
+
+.table ul li {
+    list-style: none;
+    text-align: center;
+    min-width: 100px;
+    align-self: center;
+    margin-top: 5px;
+}
+
+.table ul li button:first-child {
+    background-color: white;
+    width: 100px;
+    height: 50px;
+    border: 1px solid #3d3d3d;
+    transition: all 0.4s;
+}
+
+.table ul li button:last-child {
+    background-color: white;
+    width: 100px;
+    height: 50px;
+    border: 1px solid #ff7070;
+    transition: all 0.4s;
+}
+
+.table ul li button:first-child:hover {
+    background-color: #3d3d3d;
+    color: white;
+    border: 1px solid #3d3d3d;
+}
+
+.table ul li button:last-child:hover {
+    background-color: #f89090;
+    color: white;
+    border: 1px solid #f89090;
+}
+
+.table ul li:first-child {
+    flex: 1;
+}
+
+.table ul:first-child li {
+    list-style: none;
+    border-right: 1px solid #cecece;
+    transition: all 0.4s;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-self: center;
+}
+
+.table ul:first-child li:hover {
+    list-style: none;
+    background-color: #f87070;
+}
+
+.table ul li:last-child {
+    list-style: none;
+    flex: 1;
+    border: none;
+    text-align: center;
+}
