@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- Header-->
+    <header>
+        <div>
+            <h1>ABM Stock</h1>
+        </div>
+        <div>
+            <button id="btnVoltar">Voltar</button>
+        </div>
+    </header>
+
+    <!-- Form-->
+    <div>
+        <form>
+            <div>
+                ABM Stock - Cadastre o pedido para o stock
+            </div>
+
+            <div>
+                <span>Produto</span>
+                <input type="text" name="produto" placeholder="Ps4" id="produto">
+            </div>
+            <div>
+                <span>Quantidade</span>
+                <input type="number" max="100" placeholder="1" name="quant" id="quant">
+            </div>
+            <div>
+                <span>Preço</span>
+                <input type="number" name="price" placeholder="$100" id="price">
+            </div>
+            <div>
+                <span>Cliente</span>
+                <input type="text" name="client" placeholder="Jeferson" id="client">
+            </div>
+            <div>
+                <span>Ativo</span>
+                <input type="radio" name="bool" checked value="true" id="ativo">
+                <span>Inativo</span>
+                <input type="radio" name="bool" value="false" id="inativo">
+            </div>
+            <div>
+                <button type="submit" id="add">Adicionar</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
