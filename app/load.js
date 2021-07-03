@@ -11,7 +11,7 @@ $.get(URL,
                 <li>${data[i]['price']}</li>
                 <li>${data[i]['client']}</li>
                 <li>${data[i]['bool']}</li>
-                <li><button>Select</button> <button>Delete</button></li>
+                <li><button onclick="sendData('${data[i]['_id']}')">Select</button> <button onclick="sendData('${data[i]['_id']}')">Delete</button></li>
             </ul>`;
 
 
