@@ -3,4 +3,4 @@ To generate the endpoint key, go to https://crudcrud.com and copy and paste the 
 Replace the value ENDPOINT TOKEN for the redeemed key
 
 auth.js
-  const KEY = "END POINT TOKEN CRUD CRUD";
+const KEY = "END POINT TOKEN CRUD CRUD";
