@@ -1,0 +1,87 @@
+div {
+    display: flex;
+    justify-content: center;
+}
+
+div form {
+    width: 600px;
+    font-size: 16px;
+    height: auto;
+    padding: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div form div {
+    margin: 5px;
+    display: flex;
+}
+
+div form div:first-child {
+    font-size: 24px;
+    color: white;
+    background-color: #385e96;
+    margin: 0px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+div form div:nth-child(5) {
+    margin-top: 10px;
+    justify-content: center;
+}
+
+div form div span {
+    margin-right: 14px;
+    align-self: center;
+    min-width: 70px;
+}
+
+div form div:nth-child(6) span {
+    margin-left: 5px;
+    margin-right: 5px;
+    align-self: center;
+}
+
+div form div input {
+    border-radius: 0;
+    border: 1px solid #cecece;
+    outline: none;
+    height: 24px;
+    transition: all 0.4s;
+}
+
+div form div input:focus {
+    border: 1px solid #385e96;
+    border-radius: 10px;
+}
+
+div form div:nth-child(6) input {
+    border-radius: none;
+    border: none;
+    outline: none;
+    height: none;
+}
+
+div form div button {
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: #385e96;
+    color: white;
+    transition: all 0.4s;
+}
+
+div form div button:hover {
+    background-color: #264777;
+}
+
+header div button {
+    border-color: #385e96;
+    background-color: white;
+}
+
+header div button:hover {
+    border-color: #264777;
+    background-color: #264777;
+}

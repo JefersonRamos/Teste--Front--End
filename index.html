@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste-Front End</title>
+
+    <!-- Css -->
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div>
+            <h1>ABM Stock</h1>
+        </div>
+        <div>
+            <button id="addProduto">Adiocionar produto</button>
+        </div>
+    </header>
+
+    <!-- Tables -->
+    <div>
+        <div class="table" id="container">
+            <ul>
+                <li>Id</li>
+                <li>Produto</li>
+                <li>Quandidade</li>
+                <li>Preço</li>
+                <li>Cliente</li>
+                <li>Ativo/Inativo</li>
+                <li>Options</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="libs/axios.js"></script>
+    <script src="libs/jquery.js"></script>
+    <script type="module" src="app/load.js"></script>
+    <script src="app/send.js"></script>
+
+</body>
+
+</html>
